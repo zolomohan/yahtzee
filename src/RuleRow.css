@@ -6,7 +6,7 @@
   background: rgba(227, 242, 253, 0.5);
 }
 
-.RuleRow-disabled {
+.RuleRow-completed {
   background: linear-gradient(
     to right,
     rgba(209, 196, 233, 1) 0%,
@@ -26,11 +26,11 @@
     background-position: 0% 51%;
   }
 }
-.RuleRow-disabled td:first-child {
+.RuleRow-completed td:first-child {
   text-decoration: line-through;
 }
 
-.RuleRow-disabled:hover {
+.RuleRow-completed:hover, .RuleRow-disabled:hover {
   cursor: not-allowed;
 }
 
