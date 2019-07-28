@@ -33,6 +33,7 @@ h2 {
 }
 
 .Game-reroll {
+  padding: 10px;
   font-size: 2em;
   color: white;
   font-weight: 100;
